@@ -30,13 +30,13 @@ SENU-MD BY TECH-FSD 🤍
 
 
 <p align="center">
-<a href="https://github.com/TECH-FSD/SENU-MD-V1"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=square&color=darkpink"></a> &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=SENU-MD&label=VIEWS&style=square&color=blue" />
+<a href="https://github.com/TECH-FSD/SENU-MD-V2"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=square&color=darkpink"></a> &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=SENU-MD-V2&label=VIEWS&style=square&color=blue" />
 </p>
 </p> 
 
 <p align="center">
-  <a href="https://github.com/TECH-FSD-01/SENU-MD-V1"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v3.0-cyan.svg?style=for-the-badge&logo=appveyor" /></a>
+  <a href="https://github.com/TECH-FSD-01/SENU-MD-V2"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v3.0-cyan.svg?style=for-the-badge&logo=appveyor" /></a>
 </p>
 
 
@@ -46,7 +46,7 @@ SENU-MD BY TECH-FSD 🤍
 
 Start by forking this repository to your own GitHub account. Click the button below to fork:
 
-  <a href="https://github.com/JawadYTX/KHAN-MD/fork"><img title="KHAN-MD" src="https://img.shields.io/badge/FORK-KHAN MD-h?color=blue&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/TECH-FSD-01/SENU-MD-V2/fork"><img title="KHAN-MD" src="https://img.shields.io/badge/FORK-KHAN MD-h?color=blue&style=for-the-badge&logo=stackshare"></a>
   
 ### 2. Get Session ID 
 
