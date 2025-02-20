@@ -1,19 +1,19 @@
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=B700FB&center=true&width=1000&height=200&lines=KHAN-MD-V3.0" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=B700FB&center=true&width=1000&height=200&lines=SENU-MD-V2.0" alt="Typing SVG" /></a>
   </p>
   
 ---  
 
-> **`Updated To` The Version 3.0**
+> **`Updated To` The Version 2.0**
 ---
 
 ```
-KHAN-MD BY JawadTechX 💜 
+SENU-MD BY TECH-FSD 🤍
 ```
 
 --- 
 
-<a><img src='https://files.catbox.moe/juroe8.jpg'/></a>
+<a><img src='https://files.catbox.moe/zv6eqi.jpg'/></a>
 
 ---
 
