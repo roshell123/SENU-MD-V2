@@ -36,7 +36,7 @@ SENU-MD BY TECH-FSD 🤍
 </p> 
 
 <p align="center">
-  <a href="https://github.com/TECH-FSD-01/SENU-MD-V2"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v3.0-cyan.svg?style=for-the-badge&logo=appveyor" /></a>
+  <a href="https://github.com/TECH-FSD-01/SENU-MD-V2"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v2.0-cyan.svg?style=for-the-badge&logo=appveyor" /></a>
 </p>
 
 
