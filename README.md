@@ -18,7 +18,7 @@ SENU-MD BY TECH-FSD 🤍
 ---
 
 <p align="center">
-  <a href="https://github.com/JawadYTX"><img title="Developer" src="https://img.shields.io/badge/Author-Jawad%20TechX-FF7604.svg?style=big-square&logo=github" /></a>
+  <a href="https://github.com/TECH-FSD-01"><img title="Developer" src="https://img.shields.io/badge/Author-TECH%20FSD-FF7604.svg?style=big-square&logo=github" /></a>
 </p>
 
 <div align="center">
