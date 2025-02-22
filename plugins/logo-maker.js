@@ -22,27 +22,27 @@ cmd({
     + `╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼➻\n`
     + `*◈ Text:* ${q}\n`
     + `╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼➻\n\n`
-    + `*🔢 Reply with a number to choose a style ➤*\n\n`
-    + ` 1 ➤ Black Pink\n`
-    + ` 2 ➤ Black Pink 2\n`
-    + ` 3 ➤ Silver 3D\n`
-    + ` 4 ➤ Naruto\n`
-    + ` 5 ➤ Digital Glitch\n`
-    + ` 6 ➤ Pixel Glitch\n`
-    + ` 7 ➤ Comic Style\n`
-    + ` 8 ➤ Neon Light\n`
-    + ` 9 ➤ Free Bear\n`
-    + `10 ➤ Devil Wings\n`
-    + `11 ➤ Sad Girl\n`
-    + `12 ➤ Leaves\n`
-    + `13 ➤ Dragon Ball\n`
-    + `14 ➤ Handwritten\n`
-    + `15 ➤ Neon Light \n`
-    + `16 ➤ 3D Castle Pop\n`
-    + `17 ➤ Frozen Christmas\n`
-    + `18 ➤ 3D Foil Balloons\n`
-    + `19 ➤ 3D Colourful Paint\n`
-    + `20 ➤ American Flag 3D\n\n`
+    + `*🔢 Reply with a number to choose a style ➠*\n\n`
+    + ` 1 ➠ Black Pink\n`
+    + ` 2 ➠ Black Pink 2\n`
+    + ` 3 ➠ Silver 3D\n`
+    + ` 4 ➠ Naruto\n`
+    + ` 5 ➠ Digital Glitch\n`
+    + ` 6 ➠ Pixel Glitch\n`
+    + ` 7 ➠ Comic Style\n`
+    + ` 8 ➠ Neon Light\n`
+    + ` 9 ➠ Free Bear\n`
+    + `10 ➠ Devil Wings\n`
+    + `11 ➠ Sad Girl\n`
+    + `12 ➠ Leaves\n`
+    + `13 ➠ Dragon Ball\n`
+    + `14 ➠ Handwritten\n`
+    + `15 ➠ Neon Light \n`
+    + `16 ➠ 3D Castle Pop\n`
+    + `17 ➠ Frozen Christmas\n`
+    + `18 ➠ 3D Foil Balloons\n`
+    + `19 ➠ 3D Colourful Paint\n`
+    + `20 ➠ American Flag 3D\n\n`
     + `> *© ᴩᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇᴄʜ-ꜰꜱᴅ*`;
 
     let sentMessage = await conn.sendMessage(from, { text: responseText, mentions: [sender] }, { quoted });

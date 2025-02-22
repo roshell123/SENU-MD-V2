@@ -10,7 +10,7 @@ function isEnabled(value) {
 
 cmd({
     pattern: "env",
-    alias: ["setting", "allvar"],
+    alias: ["settings", "allvar"],
     desc: "Settings of bot",
     category: "menu",
     react: "⤵️",
@@ -47,7 +47,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
         await conn.sendMessage(
             from,
             {
-                image: { url: 'https://files.catbox.moe/juroe8.jpg' }, // Image URL
+                image: { url: 'https://files.catbox.moe/zv6eqi.jpgg' }, // Image URL
                 caption: envSettings,
                 contextInfo: {
                     mentionedJid: [m.sender],

@@ -364,7 +364,7 @@ cmd({
 ┃ 📅 *Updated On:* ${app.updated}
 ┃ 👨‍💻 *Developer:* ${app.developer.name}
 ╰━━━━━━━━━━━━━━━┈⊷
-🔗 *© ᴩᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇᴄʜ-ꜰꜱᴅ*`;
+🔗 *Powered By SenuX-AI*`;
 
     await conn.sendMessage(from, { react: { text: "⬆️", key: m.key } });
 

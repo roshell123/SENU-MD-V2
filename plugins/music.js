@@ -5,7 +5,7 @@ const { cmd } = require('../command');
 
 cmd({
   pattern: 'spotify',
-  alias: ["ytmusic", "music"],
+  alias: ["ytmusic", "song","music"],
   react: '🎵',
   desc: "Fetch audio from Spotify or YouTube",
   category: "media",

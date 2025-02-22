@@ -7,7 +7,7 @@ cmd({
     alias: ["status", "runtime", "uptime"],
     desc: "Check uptime and system status",
     category: "main",
-    react: "📟",
+    react: "🔔",
     filename: __filename
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -16,17 +16,17 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const status = `╭━━〔 *SENU-MD* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *⏳Uptime*:  ${runtime(process.uptime())} 
-┃◈┃• *📟 Ram usage*: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
+┃◈┃• *🧮 Ram usage*: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
 ┃◈┃• *⚙️ HostName*: ${os.hostname()}
 ┃◈┃• *👨‍💻 Owner*: TECH-FSD
-┃◈┃• *🧬 Version*: 3.0.0 BETA
+┃◈┃• *🧬 Version*: 2.0.0 BETA
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 > © ᴩᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇᴄʜ-ꜰꜱᴅ`;
 
         // Send the status message with an image
         await conn.sendMessage(from, { 
-            image: { url: `https://files.catbox.moe/zv6eqi.jpg` },  // Image URL
+            image: { url: `https://files.catbox.moe/eci1lm.jpg` },  // Image URL
             caption: status,
             contextInfo: {
                 mentionedJid: [m.sender],

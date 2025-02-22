@@ -45,7 +45,7 @@ cmd({
       return reply("Please provide a prompt for the image.");
     }
 
-    await reply("> *SENU-AI CREATING IMAGINE ...🔥*");
+    await reply("> *KHAN-AI CREATING IMAGINE ...🔥*");
     
     const response = await fetchJson(`https://api.giftedtech.web.id/api/ai/fluximg?apikey=gifted&prompt=${q}`);
     const imageUrl = response.result;

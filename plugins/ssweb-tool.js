@@ -51,4 +51,4 @@ async (conn, mek, m, {
   }
 });
 
-// ⿻ ⌜ 𝐊𝐇𝐀𝐍 ⌟⿻⃮͛🇵🇰𖤐
+// TECH-FSD

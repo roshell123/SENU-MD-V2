@@ -14,7 +14,7 @@ cmd({
 async(conn, mek, m, {from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, isItzcp, groupAdmins, isBotAdmins, isAdmins, reply}) => {
     try {
         const city = args.length > 0 ? args.join(" ") : "bhakkar"; // Default to Bhakkar if no city is provided
-        const apiUrl = `=${city}`;
+        const apiUrl = `?city=${city}`;
 
         const response = await fetch(apiUrl);
 
@@ -60,8 +60,8 @@ async(conn, mek, m, {from, l, quoted, body, isCmd, command, args, q, isGroup, se
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363377598641244@newsletter',
-                        newsletterName: 'TECH-FSD',
+                        newsletterJid: '120363354023106228@newsletter',
+                        newsletterName: 'JawadTechX',
                         serverMessageId: 143
                     }
                 }

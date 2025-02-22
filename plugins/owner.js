@@ -29,7 +29,7 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/149k8x.jpg' }, // Image URL from your request
+            image: { url: 'https://files.catbox.moe/eci1lm.jpg' }, // Image URL from your request
             caption: `╭━━〔 *SENU-MD* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*

@@ -18,7 +18,7 @@ cmd({
       return reply("❌ Failed to fetch a joke. Please try again.");
     }
 
-    const jokeMessage = `🤣 *Here's a random joke for you!* 🤣\n\n*${joke.setup}*\n\n${joke.punchline} 😆\n\n> © ᴩᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇᴄʜ-ꜰꜱᴅ*`;
+    const jokeMessage = `🤣 *Here's a random joke for you!* 🤣\n\n*${joke.setup}*\n\n${joke.punchline} 😆\n\n> *© ᴩᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇᴄʜ-ꜰꜱᴅ*`;
 
     return reply(jokeMessage);
   } catch (error) {
@@ -198,7 +198,7 @@ async (conn, mek, m, { from, reply }) => {
         console.log('JSON response:', json);
 
         // Format the pickup line message
-        const pickupLine = `*Here's a pickup line for you:*\n\n"${json.pickupline}"\n\n> © ᴩᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇᴄʜ-ꜰꜱᴅ*`;
+        const pickupLine = `*Here's a pickup line for you:*\n\n"${json.pickupline}"\n\n> *© ᴩᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇᴄʜ-ꜰꜱᴅ*`;
 
         // Send the pickup line to the chat
         await conn.sendMessage(from, { text: pickupLine }, { quoted: m });
@@ -306,8 +306,7 @@ cmd({
 });
 
 cmd({
-  pattern: "ask",
-  alias: ["send", "sm"],
+  pattern: "send",
   desc: "Send a message multiple times, one by one.",
   category: "fun",
   filename: __filename
@@ -320,7 +319,7 @@ cmd({
     }
 
     if (!args[0]) {
-      return reply("✳️ Use this command like:\n *Example:* .ask 10,I love you");
+      return reply("✳️ Use this command like:\n *Example:* .send 10,I love you");
     }
 
     const [countStr, ...messageParts] = args.join(" ").split(",");

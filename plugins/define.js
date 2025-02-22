@@ -31,7 +31,7 @@ async (conn, mek, m, { from, q, reply }) => {
 ✍️ *Example*: ${example}  
 📝 *Synonyms*: ${synonyms}  
 
-🔗 *© ᴩᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇᴄʜ-ꜰꜱᴅ*`;
+🔗 *Powered By TECH-FSD*`;
 
         if (audio) {
             await conn.sendMessage(from, { audio: { url: audio }, mimetype: 'audio/mpeg' }, { quoted: mek });
