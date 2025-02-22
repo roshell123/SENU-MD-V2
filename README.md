@@ -101,9 +101,22 @@ You will need a session ID to run the KHAN-MD. Click the button below to obtain 
 ---
 
 > KHAN-MD Owner 
-- [JawadTechX](https://github.com/JawadYTX)
-- Creater and Owner Of KHAN-MD
-> KHAN-MD Helpers 
+- [TECH-FSD](https://github.com/TECH-FSD-01)
+- Creater and Owner Of SENU-MD
+> SENU-MD Helpers
+> SENU-MD Helpers
+> SENU-MD Helpers
+> SENU-MD Helpers
+> SENU-MD Helpers
+> SENU-MD Helpers
+> SENU-MD Helpers
+> SENU-MD Helpers
+> SENU-MD Helpers
+> SENU-MD Helpers
+> SENU-MD Helpers
+> SENU-MD Helpers
+> SENU-MD Helpers
+> SENU-MD Helpers 
 - [ROMEKTRICKS](https://github.com/ROMEKTRICKS)
 - For helping in bot plugin files.
   
