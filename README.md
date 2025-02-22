@@ -1,4 +1,3 @@
-
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=B700FB&center=true&width=1000&height=200&lines=SENU-MD-V2.0" alt="Typing SVG" /></a>
   </p>
   
@@ -46,11 +45,11 @@ SENU-MD BY TECH-FSD 🤍
 
 Start by forking this repository to your own GitHub account. Click the button below to fork:
 
-  <a href="https://github.com/TECH-FSD-01/SENU-MD-V2/fork"><img title="SENU-MD" src="https://img.shields.io/badge/FORK-KHAN MD-h?color=blue&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/TECH-FSD-01/SENU-MD-V2/fork"><img title="SENU-MD" src="https://img.shields.io/badge/FORK-SENU MD-h?color=blue&style=for-the-badge&logo=stackshare"></a>
   
 ### 2. Get Session ID 
 
-You will need a session ID to run the KHAN-MD. Click the button below to obtain your session ID.if any error in loading site try vpn:
+You will need a session ID to run the SENU-MD. Click the button below to obtain your session ID.if any error in loading site try vpn:
 
 > **Get Pair Code (Session ID)**
 
@@ -58,21 +57,6 @@ You will need a session ID to run the KHAN-MD. Click the button below to obtain 
   <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-B700FB?style=for-the-badge&logo=opencv&logoColor=black'/>
 </a>
 <br> 
-
-> **Get Pair Code (Session ID)**
-
-<a href='[https://khanmdx2.onrender.com](https://senusession-2862de0bd402.herokuapp.com/)' target="_blank">
-  <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-000000?style=for-the-badge&logo=opencv&logoColor=white'/>
-</a>
-<br> 
-
-> **Get Pair Code (Session ID)**
-
-<a href='[https://khanmdx3.onrender.com](https://senusession-2862de0bd402.herokuapp.com/)' target="_blank">
-  <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-0076D2?style=for-the-badge&logo=opencv&logoColor=black'/>
-</a>
-<br> 
-
 ---
 
 <h2 align="center">Deployment Section</h2>
@@ -100,17 +84,14 @@ You will need a session ID to run the KHAN-MD. Click the button below to obtain 
 
 ---
 
-> KHAN-MD Owner 
+> SENU-MD Owner 
 - [TECH-FSD](https://github.com/TECH-FSD-01)
 - Creater and Owner Of SENU-MD
 > SENU-MD Helpers
+- [VAJIRA RATHNAYAKA](https://github.com/VajiraOfficial)
+- WEB SCRIPT MAKER
 > SENU-MD Helpers
-> SENU-MD Helpers
-> SENU-MD Helpers
-> SENU-MD Helpers
-> SENU-MD Helpers
-> SENU-MD Helpers
-> SENU-MD Helpers
+-[
 > SENU-MD Helpers
 > SENU-MD Helpers
 > SENU-MD Helpers
@@ -118,7 +99,7 @@ You will need a session ID to run the KHAN-MD. Click the button below to obtain 
 > SENU-MD Helpers
 > SENU-MD Helpers 
 - [ROMEKTRICKS](https://github.com/ROMEKTRICKS)
-- For helping in bot plugin files.
+- For helping in bot files.
   
 ---
 
@@ -133,6 +114,6 @@ You will need a session ID to run the KHAN-MD. Click the button below to obtain 
 
 <br>
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/Rovlya1.jpeg'/></a>
 
 ---
