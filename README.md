@@ -114,6 +114,6 @@ You will need a session ID to run the SENU-MD. Click the button below to obtain 
 
 <br>
 
-<a><img src='https://i.imgur.com/Rovlya1.jpeg'/></a>
+<a><img src='https://i.ibb.co/CKbdkpwS/temp-image.jpg'/></a>
 
 ---
