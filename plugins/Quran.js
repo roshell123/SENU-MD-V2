@@ -5,94 +5,8 @@ const { translate } = require('@vitalets/google-translate-api');
 const axios = require('axios')
 
 cmd({
-  pattern: "quran",
-  alias: ["religion"],
-  react: "🤍",
-  desc: "Get Quran Surah details and explanation.",
-  category: "main",
-  filename: __filename
-}, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
-  try {
-
-    let surahInput = args[0];
-
-    if (!surahInput) {
-      return reply('Type *.lordbuddh* for getting Lord buddh Details');
-    }
-
-    let surahListRes = await fetchJson('https://quran-endpoint.vercel.app/quran');
-    let surahList = surahListRes.data;
-
-    let surahData = surahList.find(surah => 
-        surah.number === Number(surahInput) || 
-        surah.asma.ar.short.toLowerCase() === surahInput.toLowerCase() || 
-        surah.asma.en.short.toLowerCase() === surahInput.toLowerCase()
-    );
-
-    if (!surahData) {
-      return reply(`Couldn't find surah with number or name "${surahInput}"`);
-    }
-
-    let res = await fetch(`https://quran-endpoint.vercel.app/quran/${surahData.number}`);
-    
-    if (!res.ok) {
-      let error = await res.json(); 
-      return reply(`API request failed with status ${res.status} and message ${error.message}`);
-    }
-
-    let json = await res.json();
-
-    let translatedTafsirUrdu = await translate(json.data.tafsir.id, { to: 'ur', autoCorrect: true });
-
-    let translatedTafsirEnglish = await translate(json.data.tafsir.id, { to: 'en', autoCorrect: true });
-
-    let quranSurah = `
-🇱🇰 *Quran: The Holy Book ♥️🌹قرآن مجید🌹♥️*\n
-📖 *Surah ${json.data.number}: ${json.data.asma.ar.long} (${json.data.asma.en.long})*\n
-💫Type: ${json.data.type.en}\n
-✅Number of verses: ${json.data.ayahCount}\n
-⚡🔮 *Explanation (Urdu):*\n
-${translatedTafsirUrdu.text}\n
-⚡🔮 *Explanation (English):*\n
-${translatedTafsirEnglish.text}`;
-
-    await conn.sendMessage(
-      from,
-      {
-        image: { url: `https://files.catbox.moe/8fy6up.jpg` },
-        caption: quranSurah,
-        contextInfo: {
-          mentionedJid: [m.sender], 
-          forwardingScore: 999,  
-          isForwarded: true,   
-          forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363377598641244@newsletter', 
-            newsletterName: 'TECH-FSD', 
-            serverMessageId: 143
-          }
-        }
-      },
-      { quoted: mek }
-    );
-
-    if (json.data.recitation.full) {
-      await conn.sendMessage(from, {
-        audio: { url: json.data.recitation.full },
-        mimetype: 'audio/mpeg',  
-        ptt: true
-      }, { quoted: mek });
-    }
-
-  } catch (error) {
-    console.error(error);
-    reply(`Error: ${error.message}`);
-  }
-});
-
-
-cmd({
     pattern: "quranmenu",
-    alias: ["lordbuddh", "surahlist"],
+    alias: ["surahmenu", "religion"],
     desc: "menu the bot",
     category: "menu",
     react: "❤️",
@@ -139,7 +53,7 @@ In conclusion, Lord Buddha's life and teachings serve as a beacon of hope and in
         );
 
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/Quran.m4a' },
+            audio: { url: 'https://github.com/TECH-FSD-01/PROJECT-FSD/raw/refs/heads/main/audio/mehul-choudhary-phxntxm.mp3' },
             mimetype: 'audio/mp4',
             ptt: false
         }, { quoted: mek });

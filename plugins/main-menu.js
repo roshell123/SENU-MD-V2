@@ -336,7 +336,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
+            audio: { url: 'https://github.com/TECH-FSD-01/PROJECT-FSD/raw/refs/heads/main/audio/phonk-292971.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });

@@ -10,7 +10,7 @@ cmd({
 },
 async (conn, mek, m, { from, q, reply }) => {
     try {
-        if (!q) return reply("❗ Please provide a word to define.\n\n📌 *Usage:* .define [word]");
+        if (!q) return reply("Please provide a word to define.\n\n📌 *Usage:* .define [word]");
 
         const word = q.trim();
         const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;

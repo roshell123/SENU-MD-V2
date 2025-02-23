@@ -4,7 +4,7 @@ const axios = require("axios");
 cmd({
     pattern: "img",
     alias: ["pinterest", "image", "searchpin"],
-    react: "🔍",
+    react: "🚀",
     desc: "Search and download Pinterest images using the API.",
     category: "fun",
     use: ".pin <keywords>",
@@ -37,7 +37,7 @@ cmd({
                 from,
                 {
                     image: { url: image.src },
-                    caption: `*Results For:* ${query}\n\n> *BY SENU MD ❤️‍🩹*`
+                    caption: `*Results For:* ${query}\n\n> *BY SENU MD 😊*`
                 },
                 { quoted: mek }
             );

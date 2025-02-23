@@ -47,7 +47,7 @@ async (conn, mek, m, { from, reply }) => {
 
         // Send the audio file with context info
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/repo.m4a' },
+            audio: { url: 'https://github.com/TECH-FSD-01/PROJECT-FSD/raw/refs/heads/main/audio/phonk-292971.mp3' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: { 
