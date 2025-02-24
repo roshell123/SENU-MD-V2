@@ -33,7 +33,7 @@ OWNER_NAME: process.env.OWNER_NAME || "TECH-FSD",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴩᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇᴄʜ-ꜰꜱᴅ*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/zv6eqi.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/arr7x9.jpg",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> Hy I'm Alive *SENU-MD*⚡",
 // add alive msg here 
